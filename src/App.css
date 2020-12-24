@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Barcode+128&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Monoton&display=swap");
+
+.App {
+  font-family: "Poppins", sans-serif;
+}
+/* 
+@media (max-width: 500px) {
+  .App {
+    width: 200%;
+    padding: 0;
+  }
+} */
+
+@media screen and (max-width: 320px) {
+  .App {
+    width: 100%;
+    /* color: blue; */
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .App {
+    zoom: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .App {
+    width: 200%;
+  }
+}
+
+@media screen and (min-width: 801px) {
+  .App {
+    width: 100%;
+  }
+}
